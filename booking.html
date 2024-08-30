@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="ut-8">
+    <title>Booking</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<!-- Header bar -->
+
+<header style="background-color: rgb(20, 20, 20);">
+    <div class="headerLogo"> 
+        <p><a href="index.html">ZenFit</a></p>
+    </div>
+
+    <div> 
+        <nav class="headerNav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="memberships.html">MEMBERSHIPS</a></li>
+                <li><a href="aboutUs.html">ABOUT US</a></li>
+                <li><a href="booking.html">BOOKING</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="userIcons"> 
+        <button style="background-color: white;"><a href="logIn.html">USER</a></button>
+        <button style="background-color: white;"><a href="cart.html">MY CLASSES</a></button>
+    </div>
+
+    <div class="headButtons"> 
+        <button style="background-color: white;"><a href="logIn.html">JOIN NOW</a></button>
+        <button style="background-color: rgb(134, 123, 255);"><a href="memberships.html">FREE TRIAL</a></button>
+    </div>
+</header>
+
+<!-- Day/trainer dropdowns -->
+
+<div class="bookingDrop" style="background-color: black;">
+    <select name="class" id="class">
+        <option value="hiit">HIIT</option>
+        <option value="pilates">PILATES</option>
+        <option value="yoga">YOGA</option>
+      </select>
+      <select name="trainer" id="trainer">
+        <option value="karlos">KARLOS</option>
+        <option value="bill">BILL</option>
+        <option value="bob">BOB</option>
+      </select>
+</div>
+
+<!-- Days -->
+
+<div class="days" style="background-color:rgb(134, 123, 255);">
+    <ul class="daySelection">
+        <li>TODAY</li>
+        <li>TUESDAY</li>
+        <li>WEDNESDAY</li>
+        <li>THURSDAY</li>
+        <li>FRIDAY</li>
+        <li>SATURDAY</li>
+        <li>SUNDAY</li>
+    </ul>
+</div>
+
+<!-- Timetable -->
+
+<table border="1" style="background-color: rgb(230, 230, 230);">
+    <caption>MORNING</caption>
+    <tr>
+      <td rowspan="1">06:00-06:45</td>
+      <td rowspan="2"></td>
+      <td rowspan="2" class="button"><button type="submit">YOGA</button></td>
+      <td rowspan="1" class="button"><button type="submit">HIIT</button></td>
+      <td rowspan="2" class="button"><button type="submit">HIIT</button></td>
+      <td rowspan="2" class="button"><button type="submit">HIIT</button></td>
+      <td rowspan="2" class="button"><button type="submit">YOGA</button></td>
+      <td rowspan="1"></td>
+    </tr>
+    <tr>
+      <td rowspan="1">07:00-07:45</td>
+      <td rowspan="1" class="button"><button type="submit">PILATES</button></td>
+      <td rowspan="1" class="button"><button type="submit">HIIT</button></td>
+    </tr>
+    <tr>
+        <td rowspan="1">08:00-08:45</td>
+        <td rowspan="1" class="button"><button type="submit">PILATES</button></td>
+        <td rowspan="1" class="button"><button type="submit">HIIT</button></td>
+        <td rowspan="1" class="button"><button type="submit">YOGA</button></td>
+        <td rowspan="1" class="button"><button type="submit">PILATES</button></td>
+        <td rowspan="4"></td>
+        <td rowspan="2" class="button"><button type="submit">HIIT</button></td>
+        <td rowspan="1"></td>
+      </tr>
+      <tr>
+        <td rowspan="1">09:00-09:45</td>
+        <td rowspan="1" class="button"><button type="submit">YOGA</button></td>
+        <td rowspan="2" class="button"><button type="submit">PILATES</button></td>
+        <td rowspan="3"></td>
+        <td rowspan="1" class="button"><button type="submit">YOGA</button></td>
+        <td rowspan="2" class="button"><button type="submit">YOGA</button></td>
+      </tr>
+      <tr>
+        <td rowspan="1">10:00-10:45</td>
+        <td rowspan="2" class="button"><button type="submit">HIIT</button></td>
+        <td rowspan="2"></td>
+        <td rowspan="2" class="button"><button type="submit">PILATES</button></td>
+      </tr>
+      <tr>
+        <td rowspan="1">11:00-11:45</td>
+        <td rowspan="1" class="button"><button type="submit">HIIT</button></td>
+        <td rowspan="1"></td>
+      </tr>
+  </table>
+
+<!-- Footer -->
+
+<footer>
+    <div class="footerNav">
+        <nav>
+            <ul>
+                <li><a href="aboutUs.html">FAQ</a></li>
+                <li><small>FAQ</small></li>
+                <li><small>FAQ</small></li>
+                <li><small>FAQ</small></li>
+                <li><small>FAQ</small></li>
+            </ul>
+        </nav>
+
+        <nav>
+            <ul>
+                <li><a href="booking.html">BOOKING</a></li>
+                <li><small>BOOKINGS</small></li>
+                <li><small>BOOKINGS</small></li>
+                <li><small>BOOKINGS</small></li>
+                <li><small>BOOKINGS</small></li>
+            </ul>
+        </nav>
+
+        <nav>
+            <ul>
+                <li><a href="aboutUs.html">CONTACT US</a></li>
+                <li><small>CONTACT US</small></li>
+                <li><small>CONTACT US</small></li>
+                <li><small>CONTACT US</small></li>
+                <li><small>CONTACT US</small></li>
+            </ul>
+        </nav>
+
+        <nav>
+            <ul>
+                <li><a href="aboutUs.html">ABOUT US</a></li>
+                <li><small>ABOUT US</small></li>
+                <li><small>ABOUT US</small></li>
+                <li><small>ABOUT US</small></li>
+                <li><small>ABOUT US</small></li>
+            </ul>
+        </nav>
+
+        <nav>
+            <ul>
+                <li><a href="aboutUs.html">TERMS</a></li>
+                <li><small>TERMS</small></li>
+                <li><small>TERMS</small></li>
+                <li><small>TERMS</small></li>
+                <li><small>TERMS</small></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="footerLogo"> 
+        <p><a href="home.html" style="color: white;">ZenFit</a></p>
+    </div>
+
+<!-- Socials links -->
+
+    <div class="footerSocials">
+        <img>
+    </div>
+
+    <div>
+        <p><small>LITTLE TEXT</small></p>
+    </div>
+</footer>
+
+</body>

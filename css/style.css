@@ -1,0 +1,339 @@
+body {
+    font-family: 'Roboto';font-size: 16px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7vh;
+}
+
+.headerLogo p a {
+    text-decoration: none;
+    color: white;
+    padding-left: 25px;
+}
+
+.headerNav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+.headerNav ul li a {
+    margin: 5px;
+    color: white;
+}
+
+.userIcons {
+    padding-left: 40px;
+}
+
+.headButtons {
+    text-decoration: none;
+}
+
+.headButtons button {
+    height: 7vh;
+}
+
+.navButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* HERO IMAGE */
+
+.heroImg {
+    background-image: url(https://images.unsplash.com/photo-1517363898874-737b62a7db91?q=80&w=1663&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: 0 -16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    filter: saturate(0);
+    color: white;
+}
+
+.heroImg figure {
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+/* TEXT STUFF */
+
+article {
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-decoration: none;
+}
+
+.articleButton {
+    width: 120px;
+    height: 50px;
+}
+
+.whyUs {
+    width: 100vw;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-decoration: none;
+}
+
+.whyText {
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-decoration: none;
+}
+
+.about {
+    background-color: rgb(10, 10, 10);
+    color: white;
+}
+.aboutHead {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-decoration: none;
+}
+
+.asideAbout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.asideAbout h1 {
+    margin-left: 50px;
+    margin-bottom: 300px;
+}
+
+/* CLASSES */
+
+.ourClasses {
+    padding-top: 50px;
+}
+
+.classCards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+}
+
+.classCards button {
+    height: 7vh;
+}
+
+.hiitCard {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    margin: 10px;
+}
+
+.pilatesCard {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    margin: 10px;
+}
+
+.yogaCard {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: right;
+    margin: 10px;
+}
+
+.freeTrial {
+    height: 70px;
+    width: 135px;
+}
+
+/* MEMBERSHIP CARDS */
+
+.membershipCards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 150px;
+    padding-bottom: 75px;
+}
+
+.membershipCards div {
+    width: 400px;
+    height: 600px;
+}
+
+.premium {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.membershipCards button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 100px;
+    margin-top: 355px;
+}
+
+.plansLink {
+    margin-bottom: 125px;
+    width: 500px;
+    height: 75px;
+}
+
+.membershipPage {
+    background-color: rgb(175, 175, 175);
+    color: white;
+    height: 100vh;
+}
+
+.membershipComp {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.benefitsCard {
+    height: 500px;
+    width: 300px;
+    margin: 10px;
+}
+
+.basicCard {
+    height: 500px;
+    width: 300px;
+    margin: 10px;
+}
+
+.basicCard button {
+    margin-top: 250px;
+    width: 275px;
+    height: 80px;
+}
+
+.premiumCard {
+    height: 500px;
+    width: 300px;
+    margin: 10px;
+}
+
+.premiumCard button {
+    margin-top: 250px;
+    width: 275px;
+    height: 80px;
+}
+
+.eliteCard {
+    height: 500px;
+    width: 300px;
+    margin: 10px;
+}
+
+.eliteCard button {
+    margin-top: 250px;
+    width: 275px;
+    height: 80px;
+}
+
+/* BOOKING */
+
+.bookingDrop {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 5vh;
+}
+
+.bookingDrop select {
+    height: 30px;
+    width: 125px;
+}
+
+.days {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.daySelection {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    height: 6vh;
+}
+
+caption {
+    margin: 15px;
+}
+
+table {
+    width: 100%;
+    height: 800px;
+    margin-bottom: 50px;
+}
+/* FOOTER */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(40, 40, 40);
+}
+
+.footerNav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+.footerNav nav {
+    padding-right: 40px;
+}
+
+.footerLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.footerSocials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
