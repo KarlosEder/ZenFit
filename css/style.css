@@ -303,6 +303,20 @@ table {
     height: 800px;
     margin-bottom: 50px;
 }
+
+.logIn {
+    background-color: black;
+    color: white;
+    padding-top: 200px;
+}
+
+form {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
 /* FOOTER */
 
 footer {
