@@ -1,8 +1,18 @@
 body {
     font-family: 'Roboto';font-size: 16px;
+    font-size: calc(60% + 0.8vmin);
     text-align: center;
     margin: 0;
     padding: 0;
+}
+
+main {
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+html {
+    font-size: calc(60% + 0.8vmin);
 }
 
 /* HEADER */
@@ -15,19 +25,22 @@ header {
 }
 
 .headerLogo p a {
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: rgb(134, 123, 255);
     color: white;
     padding-left: 25px;
+    font-size: 250%;
 }
 
 .headerNav ul {
     display: flex;
     list-style-type: none;
     margin: 0;
+    font-weight: bold;
 }
 
 .headerNav ul li a {
-    margin: 5px;
+    margin: 50px;
     color: white;
 }
 
@@ -37,18 +50,18 @@ header {
 
 .headButtons {
     text-decoration: none;
-    padding: 0;
 }
 
 .headButtons button {
     height: 7vh;
+    border-radius: 0%;
 }
 
 .navButtons {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: ;
+    padding:0;
 }
 
 button {
@@ -65,6 +78,9 @@ button {
     height: 100vh;
     filter: saturate(0);
     color: white;
+
+    max-width: 100%;
+    height: 1200px;
 }
 
 .heroImg figure {
@@ -72,16 +88,22 @@ button {
     margin: 0 auto;
     padding-top: 140px;
     padding-bottom: 200px;
+    font-size: xx-large;
+}
+
+.heroImg h4 {
+    font-size: large;
 }
 
 /* TEXT STUFF */
 
 article {
-    width: 600px;
+    width: 800px;
     margin: 0 auto;
     padding-top: 80px;
     padding-bottom: 80px;
     text-decoration: none;
+    font-size: x-large;
 }
 
 .articleButton {
@@ -143,11 +165,13 @@ article {
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 100px;
-
 }
 
 .classCards button {
     height: 7vh;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    font-size: x-large;
 }
 
 .hiitCard {
@@ -175,8 +199,9 @@ article {
 }
 
 .freeTrial {
-    height: 70px;
-    width: 135px;
+    height: 65px;
+    width: 220px;
+    font-size: x-large;
 }
 
 /* MEMBERSHIP CARDS */
@@ -194,6 +219,7 @@ article {
 .membershipCards div {
     width: 400px;
     height: 600px;
+    border-radius: 10px;
 }
 
 .premium {
@@ -214,6 +240,8 @@ article {
     margin-bottom: 125px;
     width: 500px;
     height: 75px;
+    font-size: x-large;
+    font-weight: bolder;
 }
 
 .membershipPage {
