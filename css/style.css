@@ -15,6 +15,10 @@ html {
     font-size: calc(60% + 0.8vmin);
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* HEADER */
 
 header {
@@ -218,7 +222,7 @@ article {
 
 .membershipCards div {
     width: 400px;
-    height: 600px;
+    height: 570px;
     border-radius: 10px;
 }
 
@@ -233,7 +237,7 @@ article {
     justify-content: center;
     width: 350px;
     height: 100px;
-    margin-top: 355px;
+    margin-top: 217px;
 }
 
 .plansLink {
@@ -258,15 +262,17 @@ article {
 }
 
 .benefitsCard {
-    height: 500px;
+    height: 425px;
     width: 300px;
     margin: 10px;
+    border-radius: 10px;
 }
 
 .basicCard {
-    height: 500px;
+    height: 425px;
     width: 300px;
     margin: 10px;
+    border-radius: 10px;
 }
 
 .basicCard button {
@@ -276,9 +282,10 @@ article {
 }
 
 .premiumCard {
-    height: 500px;
+    height: 425px;
     width: 300px;
     margin: 10px;
+    border-radius: 10px;
 }
 
 .premiumCard button {
@@ -288,9 +295,10 @@ article {
 }
 
 .eliteCard {
-    height: 500px;
+    height: 425px;
     width: 300px;
     margin: 10px;
+    border-radius: 10px;
 }
 
 .eliteCard button {
